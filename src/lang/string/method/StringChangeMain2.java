@@ -7,7 +7,7 @@ public class StringChangeMain2 {
         System.out.println("대문자로 변환: " + strWithSpaces.toUpperCase());
         System.out.println("공백 제거(trim): '" + strWithSpaces.trim() + "'");
         System.out.println("공백 제거(strip): '" + strWithSpaces.strip() + "'");
-        System.out.println("앞 공백 제거(strip): '" + strWithSpaces.stripLeading()
-                + "'");
+        System.out.println("앞 공백 제거(strip): '" + strWithSpaces.stripLeading() + "'");
+        System.out.println("뒷 공백 제거(strip): '" + strWithSpaces.stripTrailing() + "'");
     }
 }
